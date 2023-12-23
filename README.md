@@ -37,13 +37,13 @@ Before you begin, ensure you have the following installed on your machine:
   ` cd your-project`
 
 - Step 2: (window) Import the MongoDB Database:
-  a. install [MongoDB](https://www.mongodb.com/try/download/community) database server
-  b.install https://downloads.mongodb.com/compass/mongodb-compass-1.41.0-win32-x64.exe
-  c.Ensure your MongoDB server is running.
-  d.create db name: paybox in mongo compass.
+  a. install [MongoDB](https://www.mongodb.com/try/download/community) database server  
+  b.install https://downloads.mongodb.com/compass/mongodb-compass-1.41.0-win32-x64.exe  
+  c.Ensure your MongoDB server is running.  
+  d.create db name: paybox in mongo compass.  
   e.run this command in the terminal:
-- (`/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore --uri="mongodb://localhost:27017" --db paybox /c/eran/work-project/paybox-new/db/payBox` )
-  \*replace (/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore) to your MongoDB path
+- (`/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore --uri="mongodb://localhost:27017" --db paybox /c/eran/work-project/paybox-new/db/payBox` )  
+  \*replace (/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore) to your MongoDB path  
   and replace (/c/eran/work-project/paybox-new/db/payBox) to the db file (db/paybox) in this project
 
 - Step 3: Install Dependencies:
