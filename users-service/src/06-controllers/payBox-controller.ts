@@ -34,16 +34,15 @@ router.post(
 );
 
 router.get(
-  "/get_all_the_users",
+  "/get_users",
   async (request: Request, response: Response, next: NextFunction) => {
     try {
-      const categories = await UserPayBoxLogic.get_all_the_users();
+      const categories = await UserPayBoxLogic.get_users();
       response.json(categories);
     } catch (err: any) {
       next(err);
     }
   }
 );
-
 
 export default router;

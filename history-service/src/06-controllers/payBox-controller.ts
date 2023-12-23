@@ -17,10 +17,10 @@ router.post(
 );
 
 router.get(
-  "/get_all_history_payments",
+  "/get_history_payments",
   async (request: Request, response: Response, next: NextFunction) => {
     try {
-      const categories = await UserPayBoxLogic.get_all_history_payments();
+      const categories = await UserPayBoxLogic.get_history_payments();
       response.json(categories);
     } catch (err: any) {
       next(err);

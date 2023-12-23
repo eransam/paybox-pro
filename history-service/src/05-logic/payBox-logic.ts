@@ -11,12 +11,12 @@ async function addHistory(History: IHistoryPayBox): Promise<IHistoryPayBox> {
   return History.save();
 }
 
-// get_all_history_payments
-async function get_all_history_payments(): Promise<IHistoryPayBox[]> {
+// get_history_payments
+async function get_history_payments(): Promise<IHistoryPayBox[]> {
   return HistoryPayBox.find().exec();
 }
 
 export default {
-  get_all_history_payments,
+  get_history_payments,
   addHistory,
 };

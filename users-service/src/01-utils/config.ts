@@ -4,7 +4,7 @@ class Config {}
 class DevelopmentConfig extends Config {
   isDevelopment = true;
   logFile = "logger.log";
-  get_all_the_users = "http://localhost:3002/api/get_all_the_users";
+  get_users = "http://localhost:3002/api/get_users";
   insertHistory = "http://localhost:3002/api/insertHistory";
   connectionString = "mongodb://localhost:27017/payBox";
 }
@@ -13,7 +13,7 @@ class ProductionConfig extends Config {
   isDevelopment = false;
   logFile = "logger.log";
   connectionString = "mongodb://localhost:27017/payBox";
-  get_all_the_users = "http://localhost:3002/api/get_all_the_users";
+  get_users = "http://localhost:3002/api/get_users";
   insertHistory = "http://localhost:3002/api/insertHistory";
 }
 
