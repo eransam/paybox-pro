@@ -1,4 +1,3 @@
-//כאן אנו מייצרים מודל לזריקת שגיאות
 class ErrorModel {
     status: number
     message: string

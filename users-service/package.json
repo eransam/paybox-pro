@@ -34,7 +34,6 @@
     "joi": "^17.7.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.4",
-    "msnodesqlv8": "^4.1.2",
     "mssql": "^10.0.1",
     "node": "^21.2.0",
     "nodemailer": "^6.7.7",
