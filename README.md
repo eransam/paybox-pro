@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed on your machine:
   git clone ` https://github.com/eransam/paybox-microservice.git`
   ` cd your-project`
 
-- Step 2: (window) Import the MongoDB Database:
+- Step 2: (window) Import the MongoDB Database:  
   a. install [MongoDB](https://www.mongodb.com/try/download/community) database server  
   b.install https://downloads.mongodb.com/compass/mongodb-compass-1.41.0-win32-x64.exe  
   c.Ensure your MongoDB server is running.  
