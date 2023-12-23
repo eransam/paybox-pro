@@ -22,7 +22,7 @@ Attached to this project is a function to send a message to the user who receive
 `get_notification()` is activated and returns as an answer to the request : post `http://localhost:3001/api/transfer_money`
 the message to the user to whom the money is transferred.
 
-\*\*Bonus: in the payBox-logic i create the func openConfirmationDialog() that ask the user in the terminal And if he approves the transfer of the money the process continues.
+\*\*Bonus: in the payBox-logic i create the func `openConfirmationDialog()` that ask the user in the terminal And if he approves the transfer of the money the process continues.
 
 ## Getting_Started
 
