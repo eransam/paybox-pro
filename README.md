@@ -31,16 +31,20 @@ Follow these steps to install, set up, and run the project. Make sure you have t
 
 Before you begin, ensure you have the following installed on your machine:
 [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (Node Package Manager)
-[MongoDB](https://www.mongodb.com/try/download/community) database server
 
 - Step 1: Clone the Repository:
   git clone ` https://github.com/eransam/paybox-microservice.git`
   ` cd your-project`
 
 - Step 2: (window) Import the MongoDB Database:
-  Ensure your MongoDB server is running and
-  Execute the mongorestore command, specifying the target database and the directory containing the backup files.
-- (`mongorestore --uri="mongodb://localhost:27017" --db your_database_name path/to/backup/directory` )
+  a. install [MongoDB](https://www.mongodb.com/try/download/community) database server
+  b.install https://downloads.mongodb.com/compass/mongodb-compass-1.41.0-win32-x64.exe
+  c.Ensure your MongoDB server is running.
+  d.create db name: paybox in mongo compass.
+  e.run this command in the terminal:
+- (`/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore --uri="mongodb://localhost:27017" --db paybox /c/eran/work-project/paybox-new/db/payBox` )
+  \*replace (/c/Program\ Files/MongoDB/Server/5.0/bin/mongorestore) to your MongoDB path
+  and replace (/c/eran/work-project/paybox-new/db/payBox) to the db file (db/paybox) in this project
 
 - Step 3: Install Dependencies:
   `cd history-service`
